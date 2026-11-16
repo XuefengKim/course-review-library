@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "jsdom": "^31.0.1",
+    "katex": "^0.19.1"
+  },
+  "name": "lse-calculus-review",
+  "private": true,
+  "scripts": {
+    "build": "node build.cjs && node assemble.cjs",
+    "test": "node check.cjs"
+  },
+  "version": "1.0.0"
+}

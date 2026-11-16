@@ -1,0 +1,21 @@
+const {JSDOM,VirtualConsole}=require('jsdom'),fs=require('fs'),assert=require('assert');
+const html=fs.readFileSync(require('path').resolve(__dirname,'../materials/复习题库.html'),'utf8');
+const errors=[];const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e.message));
+// In-memory document only: no browser, no network or external resources.
+const dom=new JSDOM(html,{runScripts:'dangerously',url:'https://offline-review.invalid/',virtualConsole:vc,beforeParse(w){w.IntersectionObserver=class{observe(){}};w.HTMLElement.prototype.scrollIntoView=function(){};}});
+const w=dom.window,d=w.document,$=id=>d.getElementById(id),click=id=>$(id).click();
+assert.equal($('groupCount').textContent,'44');assert.equal(d.querySelectorAll('#cards .card').length,5);
+assert.equal(d.querySelectorAll('#cards details[open]').length,0);
+click('all');assert($('queueStatus').textContent.includes('44'));click('next');assert.equal($('pageInfo').textContent,'2 / 9');click('prev');
+$('module').value='3';$('module').dispatchEvent(new w.Event('change'));assert.equal(d.querySelectorAll('#cards .card').length,2);
+click('draw');assert.equal(d.querySelectorAll('#cards .card').length,2);assert.equal(new Set([...d.querySelectorAll('#cards .card')].map(e=>e.dataset.id)).size,2);
+let c=d.querySelector('#cards .card');c.querySelector('[data-rating="待加强"]').click();let text=c.querySelector('textarea');text.value='复习测试草稿';text.dispatchEvent(new w.Event('input'));let state=JSON.parse(w.localStorage.getItem('lse-calculus-review-v1'));assert.equal(state[c.dataset.id].draft,'复习测试草稿');
+click('weak');assert.equal(d.querySelectorAll('#cards .card').length,1);assert.equal(d.querySelector('#cards textarea').value,'复习测试草稿');
+$('module').value='all';$('kind').value='期末测试';$('kind').dispatchEvent(new w.Event('change'));assert.equal(d.querySelectorAll('#cards .card').length,5);assert.equal(d.querySelectorAll('#cards .part').length,14);
+click('conceptAll');assert.equal(d.querySelectorAll('#conceptCards .card').length,12);click('conceptDraw');assert.equal(d.querySelectorAll('#conceptCards .card').length,3);
+assert.equal(d.querySelectorAll('#coverageRows tr').length,6);assert.equal(d.querySelectorAll('#noteList details').length,8);
+assert.equal(d.querySelectorAll('img').length,0);assert.equal(d.querySelectorAll('script[src],link[rel="stylesheet"]').length,0);
+assert(!d.querySelector('#cards').textContent.includes('correct\n'));assert.equal(errors.length,0,errors.join('\n'));
+const math=d.querySelector('math');assert(math,'MathML missing');
+console.log('PASS: counts, pagination, filters, random selection, grouped context, collapsed answers, draft persistence, marking, concept cards, notes, offline assets.');
+dom.window.close();

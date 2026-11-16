@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "courses": [
+    {
+      "id": "lse-mathematics-1-differential-calculus",
+      "platform": "edx",
+      "title": "Mathematics 1 Part 1: Differential Calculus",
+      "path": "courses/edx/lse-mathematics-1-differential-calculus",
+      "metadata": "courses/edx/lse-mathematics-1-differential-calculus/course.json"
+    }
+  ]
+}

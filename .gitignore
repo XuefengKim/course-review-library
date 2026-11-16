@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.local/
+review-records/
+*复习记录*.json
+**/tools/data.js
+**/tools/validation.json

@@ -1,0 +1,17 @@
+{
+  "id": "lse-mathematics-1-differential-calculus",
+  "platform": "edx",
+  "provider": "LSE",
+  "title": "Mathematics 1 Part 1: Differential Calculus",
+  "source_url": "https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/home",
+  "collected_at": "2026-11-16",
+  "status": "question-bank-ready-partial-text",
+  "entrypoint": "materials/复习题库.html",
+  "counts": {
+    "original_question_blocks": 76,
+    "original_question_groups": 44,
+    "supplemental_concept_cards": 12,
+    "text_excerpts": 8
+  },
+  "reminders_enabled": false
+}

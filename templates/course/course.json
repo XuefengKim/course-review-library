@@ -1,0 +1,12 @@
+{
+  "id": "replace-with-course-slug",
+  "platform": "replace-with-platform",
+  "provider": "",
+  "title": "",
+  "source_url": "",
+  "collected_at": null,
+  "status": "not-collected",
+  "entrypoint": null,
+  "counts": {},
+  "reminders_enabled": false
+}
