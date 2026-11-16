@@ -5,328 +5,327 @@ LSE Mathematics 1 Part 1: Differential Calculus
 【函数与图像 / 章节练习 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ea72a6235304d47a00ab270cd0d2cfa/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@74716f86548b4dafa15e666275018bed
 Question 1
- Given three sets \(A = \{1, 2, 3, 4, 5\},\; B = \{1, 3, 5, 7\}\) and \( C = \{1, 4, 6, 7\},\) what is \((A ∪ B) ∩ C?\) A. \(\{1, 2, 3, 4, 5, 6, 7\} \) B. \(\{1, 4, 7\} \) C. \(\{1, 3\}\) D. \( \{6\} \) 
+ Given three sets \(A = \{1, 2, 3, 4, 5\},\; B = \{1, 3, 5, 7\}\) and \( C = \{1, 4, 6, 7\},\) what is \((A ∪ B) ∩ C?\) A. \(\{1, 2, 3, 4, 5, 6, 7\} \) B. \(\{1, 4, 7\} \) C. \(\{1, 3\}\) D. \( \{6\} \)
 解题思路（整理）：先求 A 与 B 的并集（合并并去重），再只保留也属于 C 的元素。别把第二步的交集再次当成并集。
 
 【函数与图像 / 章节练习 / Question 2】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ea72a6235304d47a00ab270cd0d2cfa/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@74716f86548b4dafa15e666275018bed
 Question 2
- Given the set \( A =\{n: \text{n is a whole number and}\; 5 < n ≤ 13\},\) select all the sets below that are subsets of \(A.\) A. \((5, 13]\) B. \(\{5, 6, 11, 13\} \) C. \(\{7\}\) D. \(\{n :\text{n is a whole number and}\; 6 ≤ n < 14\}\) 
+ Given the set \( A =\{n: \text{n is a whole number and}\; 5 < n ≤ 13\},\) select all the sets below that are subsets of \(A.\) A. \((5, 13]\) B. \(\{5, 6, 11, 13\} \) C. \(\{7\}\) D. \(\{n :\text{n is a whole number and}\; 6 ≤ n < 14\}\)
 解题思路（整理）：先把 A 列举出来，再逐个检查选项里的每个元素是否都在 A 中。注意：区间包含实数，不能直接当成整数集合；严格不等号与非严格不等号决定端点是否包含。
 
 【函数与图像 / 章节练习 / Question 3】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ea72a6235304d47a00ab270cd0d2cfa/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@74716f86548b4dafa15e666275018bed
 Question 3
- Given the sets \(A = \{x\; |\;x \text{ is a whole number and}\; x > −1\}\) and \(B = \{x\; |\; x \text{ is a whole number and}\; x < 2\} ,\)which of the sets below is equal to \(A ∩ B\)? A. \((−1, 2)\) B. \([0, 1]\) C. \(\{0, 1\}\) D. \((−∞,∞)\) 
+ Given the sets \(A = \{x\; |\;x \text{ is a whole number and}\; x > −1\}\) and \(B = \{x\; |\; x \text{ is a whole number and}\; x < 2\} ,\)which of the sets below is equal to \(A ∩ B\)? A. \((−1, 2)\) B. \([0, 1]\) C. \(\{0, 1\}\) D. \((−∞,∞)\)
 解题思路（整理）：先把两个条件合并成一个范围，再施加 whole number 的限制。本题选项和课程判分对应的集合包含 0；不要把离散整数集合写成连续区间。
 
 【函数与图像 / 章节练习 / Question 4】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ea72a6235304d47a00ab270cd0d2cfa/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@74716f86548b4dafa15e666275018bed
 Question 4
- Consider the function \(f\) from \(\mathbb{R}\) to \(\mathbb{R}\) given by \(f(x) = 2x − 5.\) Find the real numbers \(a\) and \(b\) such that a formula for the inverse function \(f^{−1}\) is given by \(f^{−1}(x) = ax+b.\) \(a =\) ［作答］ \(b =\) ［作答］ 
+ Consider the function \(f\) from \(\mathbb{R}\) to \(\mathbb{R}\) given by \(f(x) = 2x − 5.\) Find the real numbers \(a\) and \(b\) such that a formula for the inverse function \(f^{−1}\) is given by \(f^{−1}(x) = ax+b.\) \(a =\) ［作答］ \(b =\) ［作答］
 解题思路（整理）：令 y=f(x)，把 x 用 y 表示，再交换变量名。最后将 f(f⁻¹(x)) 化简，检查是否得到 x。
 
 【函数与图像 / 章节练习 / Question 5】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ea72a6235304d47a00ab270cd0d2cfa/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@74716f86548b4dafa15e666275018bed
 Question 5
- If \(f(x) = 2x + 7 \) and \( g(x) = x − 4,\) find the real numbers \(a\) and \(b\) such that a formula for the inverse \((fg)^{−1}\) of the composition \(fg\) is given by \((fg)^{−1}(x) = ax + b.\) \(a =\) ［作答］ \(b =\) ［作答］ 
+ If \(f(x) = 2x + 7 \) and \( g(x) = x − 4,\) find the real numbers \(a\) and \(b\) such that a formula for the inverse \((fg)^{−1}\) of the composition \(fg\) is given by \((fg)^{−1}(x) = ax + b.\) \(a =\) ［作答］ \(b =\) ［作答］
 解题思路（整理）：这里 fg 表示 f∘g。先将 g(x) 代入 f，再对得到的一次函数求逆。也可用 (f∘g)⁻¹=g⁻¹∘f⁻¹ 检查运算顺序。
 
 【函数与图像 / 章节练习 / Question 6】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ea72a6235304d47a00ab270cd0d2cfa/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@74716f86548b4dafa15e666275018bed
 Question 6a
- Consider the line \(y = 4x − 12.\) Find the \(x\)-coordinate and the \(y\)-coordinate of the point of intersection of this line and the \(x\)-axis. \(x =\) ［作答］ \(y =\) ［作答］ 
+ Consider the line \(y = 4x − 12.\) Find the \(x\)-coordinate and the \(y\)-coordinate of the point of intersection of this line and the \(x\)-axis. \(x =\) ［作答］ \(y =\) ［作答］
 Question 6b
- Find the \(x\)-coordinate and the \(y\)-coordinate of the point of intersection of this line and the \(y\)-axis. \(x =\) ［作答］ \(y =\) ［作答］ 
+ Find the \(x\)-coordinate and the \(y\)-coordinate of the point of intersection of this line and the \(y\)-axis. \(x =\) ［作答］ \(y =\) ［作答］
 解题思路（整理）：与 x 轴相交时 y=0；与 y 轴相交时 x=0。每次都写成完整坐标，避免把截距值放错位置。
 
 【函数与图像 / 章节练习 / Question 7】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ea72a6235304d47a00ab270cd0d2cfa/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@74716f86548b4dafa15e666275018bed
 Question 7
- Express the equation \(x^{2} + 6x + 2\) in the form \((x + a)^{2} + b = 0,\) stating the values of \(a, b ∈ \mathbb{R}\) in the boxes below.. \(a =\) ［作答］ \(b = \) ［作答］ 
+ Express the equation \(x^{2} + 6x + 2\) in the form \((x + a)^{2} + b = 0,\) stating the values of \(a, b ∈ \mathbb{R}\) in the boxes below.. \(a =\) ［作答］ \(b = \) ［作答］
 解题思路（整理）：用 (x+3)² 展开式与原式比较，补进去的常数必须再减掉。原题把表达式称为 equation，却漏写原式的 =0；此处按配平方的意图处理。
 
 【函数与图像 / 章节练习 / Question 8】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ea72a6235304d47a00ab270cd0d2cfa/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@74716f86548b4dafa15e666275018bed
 Question 8a
- Consider the curve \(y = x^{2} − 8x + 7.\) Find the \(x\)-coordinates \(x = α\) and \(x = β\) of the points where this curve crosses the \(x\)-axis, where \(α < β.\) \(α =\) ［作答］ \(β=\) ［作答］ 
+ Consider the curve \(y = x^{2} − 8x + 7.\) Find the \(x\)-coordinates \(x = α\) and \(x = β\) of the points where this curve crosses the \(x\)-axis, where \(α < β.\) \(α =\) ［作答］ \(β=\) ［作答］
 Question 8b
- Find the \(y\)-coordinate \(y =γ \) of the point where this curve crosses the \(y\)-axis. \(γ =\) ［作答］ 
+ Find the \(y\)-coordinate \(y =γ \) of the point where this curve crosses the \(y\)-axis. \(γ =\) ［作答］
 Question 8c
- Find the \(x\)-coordinate and the \(y\)-coordinate of the lowest point on this curve. \(x = \) ［作答］ \(y =\) ［作答］ 
+ Find the \(x\)-coordinate and the \(y\)-coordinate of the lowest point on this curve. \(x = \) ［作答］ \(y =\) ［作答］
 解题思路（整理）：先因式分解求 x 截距，再令 x=0 求 y 截距；最低点可用配平方或顶点公式 x=−b/(2a)，代回求 y。三部分共用同一个二次函数。
 
 【函数与图像 / 章节练习 / Question 9】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ea72a6235304d47a00ab270cd0d2cfa/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@74716f86548b4dafa15e666275018bed
 Question 9
- Use the properties of exponential-type functions to find the value of \(a ∈ \mathbb{R}\) for which \((9(3^{4}))^{2}= 3^{a}.\) \(a =\) ［作答］ 
+ Use the properties of exponential-type functions to find the value of \(a ∈ \mathbb{R}\) for which \((9(3^{4}))^{2}= 3^{a}.\) \(a =\) ［作答］
 解题思路（整理）：把 9 改写为 3 的幂。同底数相乘时指数相加，整个幂再平方时指数相乘，最后比较指数。
 
 【函数与图像 / 章节练习 / Question 10】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ea72a6235304d47a00ab270cd0d2cfa/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@74716f86548b4dafa15e666275018bed
 Question 10
- Use the double-angle formulae and the table of important values of the trigonometrical functions to find the numerical values of \(\sin(2π/3)\) and \(\cos(2π/3),\) expressing your answers in the form \(\sin(2π/3)=\frac{\sqrt{a}} {2}\;\text{and}\; \cos(2π/3)=\frac{b}{2}\)and stating the values of the integers \(a\) and \(b\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ 
+ Use the double-angle formulae and the table of important values of the trigonometrical functions to find the numerical values of \(\sin(2π/3)\) and \(\cos(2π/3),\) expressing your answers in the form \(\sin(2π/3)=\frac{\sqrt{a}} {2}\;\text{and}\; \cos(2π/3)=\frac{b}{2}\)and stating the values of the integers \(a\) and \(b\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］
 解题思路（整理）：把 2π/3 看成 2×π/3，代入正弦和余弦的倍角公式；也可利用第二象限的符号和参考角 π/3 检查结果。
 
 【函数与图像 / 章节测试 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@97b411f31d3048d6bd36249e6cd60a08/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@de28a48c2ee9430988cd2fc650049829
 Question 1
- What is \([3, 8) ∩ (2, 7)?\) A. \((2, 8)\) B. \([3, 8) \) C. \([3, 7)\) D. \((2, 7)\) 
+ What is \([3, 8) ∩ (2, 7)?\) A. \((2, 8)\) B. \([3, 8) \) C. \([3, 7)\) D. \((2, 7)\)
 解题思路（整理）：交集要求同时满足两个区间的条件。取较大的下界和较小的上界，并分别检查该端点是否被两个区间同时包含。
 
 【函数与图像 / 章节测试 / Question 2】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@97b411f31d3048d6bd36249e6cd60a08/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@de28a48c2ee9430988cd2fc650049829
 Question 2
- If \(f(x) = 2x + 5 \;\text{and}\; g(x) = −x^2 + 4,\) find the real numbers \(a\), \(b\), \(c\) such that a formula for the composition \(gf\) is given by \(gf(x) = ax^2 + bx + c.\) \( a =\) ［作答］ \( b =\) ［作答］ \(c =\) ［作答］ 
+ If \(f(x) = 2x + 5 \;\text{and}\; g(x) = −x^2 + 4,\) find the real numbers \(a\), \(b\), \(c\) such that a formula for the composition \(gf\) is given by \(gf(x) = ax^2 + bx + c.\) \( a =\) ［作答］ \( b =\) ［作答］ \(c =\) ［作答］
 解题思路（整理）：gf 表示 g(f(x))，先用 2x+5 替换 g 中的 x，再展开平方。特别留意平方外的负号。
 
 【函数与图像 / 章节测试 / Question 3】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@97b411f31d3048d6bd36249e6cd60a08/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@de28a48c2ee9430988cd2fc650049829
 Question 3
- If \(f(x) =\frac{ x}{2}+ 4 \) and \( g(x) = 3x − 2,\) find the real numbers \(a\) and \(b\) such that a formula for the composition \(f^{−1}g,\) where \(f^{−1}\) is the inverse of \(f,\) is given by \(f^{−1}g(x) = ax + b\) \(a =\) ［作答］ \(b =\) ［作答］ 
+ If \(f(x) =\frac{ x}{2}+ 4 \) and \( g(x) = 3x − 2,\) find the real numbers \(a\) and \(b\) such that a formula for the composition \(f^{−1}g,\) where \(f^{−1}\) is the inverse of \(f,\) is given by \(f^{−1}g(x) = ax + b\) \(a =\) ［作答］ \(b =\) ［作答］
 解题思路（整理）：先由 y=x/2+4 解出反函数，再将 g(x) 整体代入反函数。不要把复合函数当成相乘。
 
 【函数与图像 / 章节测试 / Question 4】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@97b411f31d3048d6bd36249e6cd60a08/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@de28a48c2ee9430988cd2fc650049829
 Question 4
- Given \(f(x) = 2x^{2} − 6x + 1,\) complete the square to express \(f(x)\) in the form \(f(x) = a(x + b)^{2} + c,\) stating the values of \(a, b, c ∈ \mathbb{R}\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ 
+ Given \(f(x) = 2x^{2} − 6x + 1,\) complete the square to express \(f(x)\) in the form \(f(x) = a(x + b)^{2} + c,\) stating the values of \(a, b, c ∈ \mathbb{R}\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］
 解题思路（整理）：先提出二次项系数 2，再在括号内配平方；最后把补偿的常数乘回 2。展开答案，逐项核对二次、一次和常数项。
 
 【函数与图像 / 章节测试 / Question 5】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@97b411f31d3048d6bd36249e6cd60a08/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@de28a48c2ee9430988cd2fc650049829
 Quesiton 5
- Use the properties of \(\text{ln}\; x\) to find the value of \(a ∈ \mathbb{R}\) for which \(\text{ln}\; 12 − \text{ln}\; 3 + 2 \text{ln}\; 5 = \text{ln}\; a.\) \(a=\) ［作答］ 
+ Use the properties of \(\text{ln}\; x\) to find the value of \(a ∈ \mathbb{R}\) for which \(\text{ln}\; 12 − \text{ln}\; 3 + 2 \text{ln}\; 5 = \text{ln}\; a.\) \(a=\) ［作答］
 解题思路（整理）：用 ln a−ln b=ln(a/b) 和 k ln a=ln(aᵏ)，将所有项合并为一个对数，再比较真数。对数真数必须为正。
 
 【函数与图像 / 章节测试 / Question 6a】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@97b411f31d3048d6bd36249e6cd60a08/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@de28a48c2ee9430988cd2fc650049829
 Question 6a
- Find the coordinates \((x_{A}, y_{A})\) and \((x_{B}, y_{B})\) of the points of intersection of the line \(y = 2x + 5\) and the quadratic \(y = −x^{2} + 4x + 13,\) where \(x_{A} < x_{B}.\) \(x_{A} =\) ［作答］ \(y_{A} =\) ［作答］ \(x_{B} =\) ［作答］ \(y_{B} =\) ［作答］ 
+ Find the coordinates \((x_{A}, y_{A})\) and \((x_{B}, y_{B})\) of the points of intersection of the line \(y = 2x + 5\) and the quadratic \(y = −x^{2} + 4x + 13,\) where \(x_{A} < x_{B}.\) \(x_{A} =\) ［作答］ \(y_{A} =\) ［作答］ \(x_{B} =\) ［作答］ \(y_{B} =\) ［作答］
 解题思路（整理）：令直线和二次曲线的 y 表达式相等，求出两个 x；分别代回任一原式求 y，并按 x 的大小排序。
 
 【函数与图像 / 章节测试 / Question 6b】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@97b411f31d3048d6bd36249e6cd60a08/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@de28a48c2ee9430988cd2fc650049829
 Question 6b
- Suppose that the demand relationship for a product is \(p = 17 − 2q\) and that the supply relationship is \(p = q^{2} + 2.\) Determine the equilibrium quantity, \(q^{∗},\) and equilibrium price, \(p^{∗}.\) \(q^{∗} =\) ［作答］ \(p^{∗} =\) ［作答］ 
+ Suppose that the demand relationship for a product is \(p = 17 − 2q\) and that the supply relationship is \(p = q^{2} + 2.\) Determine the equilibrium quantity, \(q^{∗},\) and equilibrium price, \(p^{∗}.\) \(q^{∗} =\) ［作答］ \(p^{∗} =\) ［作答］
 解题思路（整理）：均衡时供给价等于需求价。联立求 q 后，按经济含义筛掉负数量，再代回求 p；不能把两个代数根都当作可行均衡。
 
 【导数 / 章节练习 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@3ed6d650797b4c30b8a8821aa251e0e4/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@49c2dacfea9b4290957824078a2370ac
 Question 1
- Suppose \(f(x) = 3x^2 + 2.\) Work out \(f'(x)\) by calculating\(\frac{f(x + h) - f(x)}{h}\)and then letting \(h\) approach \(0\). Write your answer in the form \(f'(x)=ax+b,\)stating the values of the real numbers \(a\) and \(b\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ 
+ Suppose \(f(x) = 3x^2 + 2.\) Work out \(f'(x)\) by calculating\(\frac{f(x + h) - f(x)}{h}\)and then letting \(h\) approach \(0\). Write your answer in the form \(f'(x)=ax+b,\)stating the values of the real numbers \(a\) and \(b\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］
 解题思路（整理）：严格按导数定义：先展开 f(x+h)−f(x)，约掉 h，再取 h→0。不要在约分前把 h 直接设成 0。
 
 【导数 / 章节练习 / Question 2】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@3ed6d650797b4c30b8a8821aa251e0e4/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@49c2dacfea9b4290957824078a2370ac
 Question 2
- Suppose \(f(x) = \frac{2}{x}.\) Work out \(f'(x)\) by calculating \(\frac{f(x + h) - f(x)}{h}\)and then letting \(h\) approach \(0\). Write your answer in the form \(f'(x)=\frac{a}{x^2},\)stating the value of the real number \(a\) in the box below. \(a =\) ［作答］ 
+ Suppose \(f(x) = \frac{2}{x}.\) Work out \(f'(x)\) by calculating \(\frac{f(x + h) - f(x)}{h}\)and then letting \(h\) approach \(0\). Write your answer in the form \(f'(x)=\frac{a}{x^2},\)stating the value of the real number \(a\) in the box below. \(a =\) ［作答］
 解题思路（整理）：先将两个分式通分，化简差商并约掉 h，再令 h→0；同时保留 x≠0 的定义域条件。
 
 【导数 / 章节练习 / Question 3】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@3ed6d650797b4c30b8a8821aa251e0e4/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@49c2dacfea9b4290957824078a2370ac
 Question 3
- Use the sum and product rules to find the derivative of \(e^x \text{ln}\;x+x^2 \text{cos}\;x.\)Write your answer in the form \(ae^x\ln x+b\frac{e^x}{x}+cx\cos x+dx^2\sin x,\)stating the values of the real numbers \(a\), \(b\), \(c\), \(d\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ \(d =\) ［作答］ 
+ Use the sum and product rules to find the derivative of \(e^x \text{ln}\;x+x^2 \text{cos}\;x.\)Write your answer in the form \(ae^x\ln x+b\frac{e^x}{x}+cx\cos x+dx^2\sin x,\)stating the values of the real numbers \(a\), \(b\), \(c\), \(d\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ \(d =\) ［作答］
 解题思路（整理）：先按加法拆成两项，再分别用乘积法则 u′v+uv′。注意 ln x 的导数是 1/x，cos x 的导数带负号。
 
 【导数 / 章节测试 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@6928afb4f6ae435d85acc89543470f61/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@e59e9bba875e445da9583fc52fde9301
 Question 1
- Use the product and quotient rules to find the derivative of \(\frac{x^3e^x}{\text{sin}\; x}.\) Write your answer in the form \(\frac{(ax^2e^x+bx^3e^x)\sin x+cx^3e^x\cos x}{(\sin x)^2},\)stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ 
+ Use the product and quotient rules to find the derivative of \(\frac{x^3e^x}{\text{sin}\; x}.\) Write your answer in the form \(\frac{(ax^2e^x+bx^3e^x)\sin x+cx^3e^x\cos x}{(\sin x)^2},\)stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］
 解题思路（整理）：先把分子看作 x³ 与 eˣ 的乘积求导，再用商法则 (u′v−uv′)/v²；最后与题目给定形式逐项对齐。
 
 【导数 / 章节测试 / Question 2】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@6928afb4f6ae435d85acc89543470f61/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@e59e9bba875e445da9583fc52fde9301
 Question 2
- Use the sum and composite function rules to find the derivative of \(\text{sin}(x^5) + \text{ln}(x^2 + x).\) Write your answer in the form\(ax^4\cos(x^5)+\frac{bx+c}{x^2+x},\)stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ 
+ Use the sum and composite function rules to find the derivative of \(\text{sin}(x^5) + \text{ln}(x^2 + x).\) Write your answer in the form\(ax^4\cos(x^5)+\frac{bx+c}{x^2+x},\)stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］
 解题思路（整理）：两个加项分别用链式法则：先求外层导数，再乘内层导数。对 ln(x²+x)，分母保留整个内层函数；原函数需满足 x²+x>0。
 
 【曲线与单变量最优化 / 章节练习 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@359620c48f6e42c7b53f89e9970c0b2a/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@450cd586597e45a399af0e3b8630c1c1
 Question 1a
- The function \(f\) is given by \(f(x) = (x^2 + 10x − 10)e^{−x}.\) The derivative of \(f\) is \(f'(x) = (Ax^2 + Bx + C)e^{−x},\)where \(A=\) ［作答］ \(B =\) ［作答］ \(C =\) ［作答］ 
+ The function \(f\) is given by \(f(x) = (x^2 + 10x − 10)e^{−x}.\) The derivative of \(f\) is \(f'(x) = (Ax^2 + Bx + C)e^{−x},\)where \(A=\) ［作答］ \(B =\) ［作答］ \(C =\) ［作答］
 Question 1b
- The function \(f\) has critical points when \(x = r < 0\) and \(y = s > 0,\) where: \(r =\) ［作答］ \(s =\) ［作答］ 
+ The function \(f\) has critical points when \(x = r < 0\) and \(y = s > 0,\) where: \(r =\) ［作答］ \(s =\) ［作答］
 Question 1c
- The second derivative \(f''(x)\) is\(f''(x) = (ax^2 + bx + c)e^{−x},\) where \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ 
+ The second derivative \(f''(x)\) is\(f''(x) = (ax^2 + bx + c)e^{−x},\) where \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］
 Question 1d
- When \(x = r\), what type of critical point do we have? A. A local maximum B. A local minimum C. A point of inflexion 
+ When \(x = r\), what type of critical point do we have? A. A local maximum B. A local minimum C. A point of inflexion
 Question 1e
- When \(x = s\), what type of critical point do we have? A. A local maximum B. A local minimum C. A point of inflexion 
+ When \(x = s\), what type of critical point do we have? A. A local maximum B. A local minimum C. A point of inflexion
 解题思路（整理）：先用乘积法则求一阶导数，提出始终为正的 e⁻ˣ；令余下多项式为零找临界点。再次求导并代入临界点：二阶导数正对应局部极小，负对应局部极大。
 
 【曲线与单变量最优化 / 章节测试 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@85e84b7e59064f388e2906e310177378/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@9f4c877bb8b5484490a1e4dae21e1d5f
 Question 1a
- Consider the curve \(y = f(x)\) where \(f(x) = −x^3 + 4x.\) Find the three points \((α, 0), (β, 0)\) and \((γ, 0)\) where the curve crosses the \(x\)-axis. State the values of \(α, β\) and \(γ\) in the boxes below, ordering these values so that \(α < β < γ\). \(α =\) ［作答］ \(β =\) ［作答］ \(γ \) ［作答］ 
+ Consider the curve \(y = f(x)\) where \(f(x) = −x^3 + 4x.\) Find the three points \((α, 0), (β, 0)\) and \((γ, 0)\) where the curve crosses the \(x\)-axis. State the values of \(α, β\) and \(γ\) in the boxes below, ordering these values so that \(α < β < γ\). \(α =\) ［作答］ \(β =\) ［作答］ \(γ \) ［作答］
 Question 1b
- Find the point \((0, δ)\) where the curve crosses the \(y\)-axis, stating the value of \(δ\) in the box below. \(δ =\) ［作答］ 
+ Find the point \((0, δ)\) where the curve crosses the \(y\)-axis, stating the value of \(δ\) in the box below. \(δ =\) ［作答］
 Question 1c
- The two critical points of this curve have coordinates \(\left(\frac{-2\sqrt{λ}}{3}, \frac{-16\sqrt{μ}}{9}\right)\) and \(\left(\frac{2\sqrt{λ}}{3}, \frac{16\sqrt{μ}}{9}\right).\)Determine the values of \(λ\) and \(μ.\) \(λ =\) ［作答］ \(μ =\) ［作答］ 
+ The two critical points of this curve have coordinates \(\left(\frac{-2\sqrt{λ}}{3}, \frac{-16\sqrt{μ}}{9}\right)\) and \(\left(\frac{2\sqrt{λ}}{3}, \frac{16\sqrt{μ}}{9}\right).\)Determine the values of \(λ\) and \(μ.\) \(λ =\) ［作答］ \(μ =\) ［作答］
 Question 1d
- Use the test based on the second derivative of \( f\) to determine the nature of each critical point you found in part 1c, selecting the correct answer below. A. The critical point\(\left(\frac{-2\sqrt{λ}}{3},\frac{-16\sqrt{μ}}{9}\right)\) is a local minimum and the the critical point\(\left(\frac{2\sqrt{λ}}{3},\frac{16\sqrt{μ}}{9}\right)\) is an inflexion point. B. The critical point\(\left(\frac{-2\sqrt{λ}}{3},\frac{-16\sqrt{μ}}{9}\right)\) is a local maximum and the the critical point\(\left(\frac{2\sqrt{λ}}{3},\frac{16\sqrt{μ}}{9}\right)\) is an inflexion point. C. The critical point\(\left(\frac{-2\sqrt{λ}}{3},\frac{-16\sqrt{μ}}{9}\right)\) is a local minimum and the the critical point\(\left(\frac{2\sqrt{λ}}{3},\frac{16\sqrt{μ}}{9}\right)\) is a local maximum. D. The critical point\(\left(\frac{-2\sqrt{λ}}{3},\frac{-16\sqrt{μ}}{9}\right)\) is a local maximum and the the critical point\(\left(\frac{2\sqrt{λ}}{3},\frac{16\sqrt{μ}}{9}\right)\) is a local minimum. 
+ Use the test based on the second derivative of \( f\) to determine the nature of each critical point you found in part 1c, selecting the correct answer below. A. The critical point\(\left(\frac{-2\sqrt{λ}}{3},\frac{-16\sqrt{μ}}{9}\right)\) is a local minimum and the the critical point\(\left(\frac{2\sqrt{λ}}{3},\frac{16\sqrt{μ}}{9}\right)\) is an inflexion point. B. The critical point\(\left(\frac{-2\sqrt{λ}}{3},\frac{-16\sqrt{μ}}{9}\right)\) is a local maximum and the the critical point\(\left(\frac{2\sqrt{λ}}{3},\frac{16\sqrt{μ}}{9}\right)\) is an inflexion point. C. The critical point\(\left(\frac{-2\sqrt{λ}}{3},\frac{-16\sqrt{μ}}{9}\right)\) is a local minimum and the the critical point\(\left(\frac{2\sqrt{λ}}{3},\frac{16\sqrt{μ}}{9}\right)\) is a local maximum. D. The critical point\(\left(\frac{-2\sqrt{λ}}{3},\frac{-16\sqrt{μ}}{9}\right)\) is a local maximum and the the critical point\(\left(\frac{2\sqrt{λ}}{3},\frac{16\sqrt{μ}}{9}\right)\) is a local minimum.
 Question 1e
- Determine the limiting behaviour of \(f(x)\) as \(x → ±∞\), selecting the correct answer below. A. \(\text{As}\; x \rightarrow −∞, f(x) \rightarrow +∞. \;\text{As}\; x \rightarrow +∞, f(x) \rightarrow −∞\). B. \(\text{As}\; x \rightarrow −∞, f(x) \rightarrow -∞. \;\text{As}\; x \rightarrow +∞, f(x) \rightarrow −∞\). C. \(\text{As}\; x \rightarrow -∞, f(x) \rightarrow +∞. \;\text{As}\; x \rightarrow +∞, f(x) \rightarrow +∞\). D. \(\text{As}\; x \rightarrow −∞, f(x) \rightarrow -∞. \;\text{As}\; x \rightarrow +∞, f(x) \rightarrow +∞\). 
+ Determine the limiting behaviour of \(f(x)\) as \(x → ±∞\), selecting the correct answer below. A. \(\text{As}\; x \rightarrow −∞, f(x) \rightarrow +∞. \;\text{As}\; x \rightarrow +∞, f(x) \rightarrow −∞\). B. \(\text{As}\; x \rightarrow −∞, f(x) \rightarrow -∞. \;\text{As}\; x \rightarrow +∞, f(x) \rightarrow −∞\). C. \(\text{As}\; x \rightarrow -∞, f(x) \rightarrow +∞. \;\text{As}\; x \rightarrow +∞, f(x) \rightarrow +∞\). D. \(\text{As}\; x \rightarrow −∞, f(x) \rightarrow -∞. \;\text{As}\; x \rightarrow +∞, f(x) \rightarrow +∞\).
 解题思路（整理）：按顺序找坐标轴交点、解 f′=0、求临界点纵坐标，再用 f″ 判断性质。无穷远行为由最高次项 −x³ 决定。临界点的横坐标不是函数值。
 
 【偏导数与多变量函数 / 章节练习 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ce4679770d6411aab34077c685015c4/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@addff80ad589499b97d2ece8aa624736
 Question 1a
- Consider the function \(f(x, y) = xy^{3} + 3x^{2}y^{2} + 2x^{4}.\) Find the partial derivative \(f_{x}(x, y).\) Write your answer in the form \( ay^3 + bxy^2 + cx^3 ,\) stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ 
+ Consider the function \(f(x, y) = xy^{3} + 3x^{2}y^{2} + 2x^{4}.\) Find the partial derivative \(f_{x}(x, y).\) Write your answer in the form \( ay^3 + bxy^2 + cx^3 ,\) stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］
 Question 1b
- Find the partial derivative \(f_{y}(x, y).\) Write your answer in the form \( axy^2 + bx^2y ,\) stating the values of the real numbers \(a\) and \(b\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ 
+ Find the partial derivative \(f_{y}(x, y).\) Write your answer in the form \( axy^2 + bx^2y ,\) stating the values of the real numbers \(a\) and \(b\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］
 解题思路（整理）：对 x 求偏导时，把 y 当常数；对 y 求偏导时反过来。逐项使用幂函数法则，再按题目给定的系数排列作答。
 
 【偏导数与多变量函数 / 章节练习 / Question 2】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ce4679770d6411aab34077c685015c4/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@addff80ad589499b97d2ece8aa624736
 Question 2a
- Consider the function \(f(x, y) = (x^{2} + y)\text{e}^{2x−y^{3}}.\) Find the constants \(α, β, γ\) such that \( f_{x}(x, y) = 2\text{e}^{2x−y^{3}}(αx + βy + γx^{2})\) is the partial derivative of \(f\) with respect to \(x.\) \(α =\) ［作答］ \(β =\) ［作答］ \(γ = \) ［作答］ 
+ Consider the function \(f(x, y) = (x^{2} + y)\text{e}^{2x−y^{3}}.\) Find the constants \(α, β, γ\) such that \( f_{x}(x, y) = 2\text{e}^{2x−y^{3}}(αx + βy + γx^{2})\) is the partial derivative of \(f\) with respect to \(x.\) \(α =\) ［作答］ \(β =\) ［作答］ \(γ = \) ［作答］
 Question 2b
- Find the constants \(α, β, γ\) such that \( f_{y}(x, y) = \text{e}^{2x−y^{3}}(α + βx^{2}y^{2} + γy^{3})\) is the partial derivative of \(f\) with respect to \(y.\) \(α =\) ［作答］ \(β =\) ［作答］ \(γ =\) ［作答］ 
+ Find the constants \(α, β, γ\) such that \( f_{y}(x, y) = \text{e}^{2x−y^{3}}(α + βx^{2}y^{2} + γy^{3})\) is the partial derivative of \(f\) with respect to \(y.\) \(α =\) ［作答］ \(β =\) ［作答］ \(γ =\) ［作答］
 解题思路（整理）：每个偏导都要用乘积法则与链式法则。对指数 2x−y³ 分别求偏导，得到的因子不同；最后再提出共同的指数项。
 
 【偏导数与多变量函数 / 章节练习 / Question 3】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ce4679770d6411aab34077c685015c4/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@addff80ad589499b97d2ece8aa624736
 Question 3a
- Suppose that \(y\) is a function of \(x\) defined implicitly by the equation \(4x^{2}y^{2} − 6xy^{3} + x^{3}y = 9.\) Find the partial derivative \(g_{x}(x, y)\) of the function \(g(x, y) = 4x^{2}y^{2} − 6xy^{3} + x^{3}y.\)Write your answer in the form \( axy^2 + by^3 + cx^2y ,\) stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ 
+ Suppose that \(y\) is a function of \(x\) defined implicitly by the equation \(4x^{2}y^{2} − 6xy^{3} + x^{3}y = 9.\) Find the partial derivative \(g_{x}(x, y)\) of the function \(g(x, y) = 4x^{2}y^{2} − 6xy^{3} + x^{3}y.\)Write your answer in the form \( axy^2 + by^3 + cx^2y ,\) stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］
 Question 3b
- Find the partial derivative \(g_{y}(x, y)\) of the function \(g(x, y) = 4x^{2}y^{2} − 6xy^{3} + x^{3}y.\)Write your answer in the form \( ax^2y + bxy^2 + cx^3 ,\) stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ 
+ Find the partial derivative \(g_{y}(x, y)\) of the function \(g(x, y) = 4x^{2}y^{2} − 6xy^{3} + x^{3}y.\)Write your answer in the form \( ax^2y + bxy^2 + cx^3 ,\) stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］
 Question 3c
- Verify that the point \((x, y) = (−1, 1)\) satisfies the equation \(g(x, y) = 9\) and find the value of the derivative, \(y'(x),\) at this point. \(y'(−1) =\) ［作答］ 
+ Verify that the point \((x, y) = (−1, 1)\) satisfies the equation \(g(x, y) = 9\) and find the value of the derivative, \(y'(x),\) at this point. \(y'(−1) =\) ［作答］
 解题思路（整理）：先独立计算 gₓ 与 gᵧ，再用隐函数公式 y′=−gₓ/gᵧ（要求 gᵧ≠0）。代入指定点前，先确认该点确实满足原方程。
 
 【偏导数与多变量函数 / 章节练习 / Question 4】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ce4679770d6411aab34077c685015c4/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@addff80ad589499b97d2ece8aa624736
 Question 4
- Consider the function \(f(x, y, z) = x^{2} + y^{2}z + xyz.\)Find the partial derivatives \(f_{x}(x, y, z), f_{y}(x, y, z)\) and \(f_{z}(x, y, z).\) Write your answers in the form \(f_x(x, y, z) = Ax + Byz,\quad f_y(x, y, z) = Cyz + Dxz,\quad f_z(x, y, z) = Ey^2 + F xy,\) stating the values of the real numbers \(A\), \(B\), \(C\), \(D\), \(E\), \(F\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ \(C =\) ［作答］ \(D =\) ［作答］ \(E =\) ［作答］ \(F =\) ［作答］ 
+ Consider the function \(f(x, y, z) = x^{2} + y^{2}z + xyz.\)Find the partial derivatives \(f_{x}(x, y, z), f_{y}(x, y, z)\) and \(f_{z}(x, y, z).\) Write your answers in the form \(f_x(x, y, z) = Ax + Byz,\quad f_y(x, y, z) = Cyz + Dxz,\quad f_z(x, y, z) = Ey^2 + F xy,\) stating the values of the real numbers \(A\), \(B\), \(C\), \(D\), \(E\), \(F\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ \(C =\) ［作答］ \(D =\) ［作答］ \(E =\) ［作答］ \(F =\) ［作答］
 解题思路（整理）：一次只对指定变量求导，其余两个变量均当常数。尤其检查 xyz 对每个变量求导后留下的两个因子。
 
 【偏导数与多变量函数 / 章节练习 / Question 5】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@1ce4679770d6411aab34077c685015c4/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@addff80ad589499b97d2ece8aa624736
 Question 5a
- Suppose that \(q\) is a function of \(k\) and \(l\) defined implicitly by the equation \(q^{3} + kq^{2} − lq = 2.\) Find the partial derivative \(g_{q}(q, k, l)\) of the function \(g(q, k, l) = q^{3} + kq^{2} − lq.\) Write your answers in the form \(Aq^2 + Bkq + Cl,\) stating the values of the real numbers \(A\), \(B\), \(C\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ \(C =\) ［作答］ 
+ Suppose that \(q\) is a function of \(k\) and \(l\) defined implicitly by the equation \(q^{3} + kq^{2} − lq = 2.\) Find the partial derivative \(g_{q}(q, k, l)\) of the function \(g(q, k, l) = q^{3} + kq^{2} − lq.\) Write your answers in the form \(Aq^2 + Bkq + Cl,\) stating the values of the real numbers \(A\), \(B\), \(C\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ \(C =\) ［作答］
 Question 5b
- Find the partial derivative \(g_{k}(q, k, l)\) of the function \(g(q, k, l) = q^{3} + kq^{2} − lq.\) Write your answers in the form \(Aq^2 + B,\) stating the values of the real numbers \(A\) and \(B\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ 
+ Find the partial derivative \(g_{k}(q, k, l)\) of the function \(g(q, k, l) = q^{3} + kq^{2} − lq.\) Write your answers in the form \(Aq^2 + B,\) stating the values of the real numbers \(A\) and \(B\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］
 Question 5c
- Find the partial derivative \(g_{l}(q, k, l)\) of the function \(g(q, k, l) = q^{3} + kq^{2} − lq.\) Write your answers in the form \(Aq + B,\) stating the values of the real numbers \(A\) and \(B\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ 
+ Find the partial derivative \(g_{l}(q, k, l)\) of the function \(g(q, k, l) = q^{3} + kq^{2} − lq.\) Write your answers in the form \(Aq + B,\) stating the values of the real numbers \(A\) and \(B\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］
 Question 5d
- What is the value of \(q\) at the point where \(k = −2\) and \(l = −1?\) (Hint: The identity \(q^{3} − 2q^{2} + q − 2 = (q − 2)(q^{2} + 1)\) will be useful.) \(q =\) ［作答］ 
+ What is the value of \(q\) at the point where \(k = −2\) and \(l = −1?\) (Hint: The identity \(q^{3} − 2q^{2} + q − 2 = (q − 2)(q^{2} + 1)\) will be useful.) \(q =\) ［作答］
 Question 5e
- What are the values of the partial derivatives \(q_{k}(k, l)\) and \(q_{l}(k, l)\) at the point where \(k = −2\) and \(l = −1?\) \(q_{k}(−2, −1) =\) ［作答］ \( q_{l}(−2, −1) =\) ［作答］ 
+ What are the values of the partial derivatives \(q_{k}(k, l)\) and \(q_{l}(k, l)\) at the point where \(k = −2\) and \(l = −1?\) \(q_{k}(−2, −1) =\) ［作答］ \( q_{l}(−2, −1) =\) ［作答］
 解题思路（整理）：先把 q、k、l 暂时当独立变量计算 g 的三个偏导。求指定点的 q 后，再用 qₖ=−gₖ/gq、qₗ=−gₗ/gq；分母在该点必须非零。
 
 【偏导数与多变量函数 / 章节测试 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@6cc757e003bc48c3b6e4505924d07945/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@2ccbaf18000a430fada7b19402f489b2
 Question 1a
- Consider the function \(f(x, y) = x^{2}y^{3} −\frac{x}{y}+ \text{e}^{xy}.\) Find the partial derivative \(f_{x}(x, y).\) Write your answer in the form \(axy^3 +\frac{b}{y}+ cye^{xy},\) stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ 
+ Consider the function \(f(x, y) = x^{2}y^{3} −\frac{x}{y}+ \text{e}^{xy}.\) Find the partial derivative \(f_{x}(x, y).\) Write your answer in the form \(axy^3 +\frac{b}{y}+ cye^{xy},\) stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］
 Question 1b
- Find the partial derivative \(f_{y}(x, y).\) Write your answer in the form \(ax^2y^2 + b\frac{x}{y^2}+ cxe^{xy},\) stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ 
+ Find the partial derivative \(f_{y}(x, y).\) Write your answer in the form \(ax^2y^2 + b\frac{x}{y^2}+ cxe^{xy},\) stating the values of the real numbers \(a\), \(b\), \(c\) in the boxes below. \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］
 解题思路（整理）：分别固定 y、固定 x 求偏导。可把 −x/y 写成 −xy⁻¹ 来检查符号；eˣʸ 的导数要乘指数对相应变量的偏导。
 
 【偏导数与多变量函数 / 章节测试 / Question 2】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@6cc757e003bc48c3b6e4505924d07945/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@2ccbaf18000a430fada7b19402f489b2
 Question 2a
- Suppose that \(f(x, y) = x^{2}y + y^{2}\) and that \(x(t) = 3 − 4t\; \text{and}\; y(t) = 1 + 2t.\) If \(F(t) = f (x(t), y(t)),\) use the chain rule to find the constants \(α, β, γ\) such that the expression \(F'(t) = αt^{2} + βt + γ\) gives the derivative of \(F(t)\) with respect to \(t\). \(α =\) ［作答］ \(β =\) ［作答］ \(γ =\) ［作答］ 
+ Suppose that \(f(x, y) = x^{2}y + y^{2}\) and that \(x(t) = 3 − 4t\; \text{and}\; y(t) = 1 + 2t.\) If \(F(t) = f (x(t), y(t)),\) use the chain rule to find the constants \(α, β, γ\) such that the expression \(F'(t) = αt^{2} + βt + γ\) gives the derivative of \(F(t)\) with respect to \(t\). \(α =\) ［作答］ \(β =\) ［作答］ \(γ =\) ［作答］
 Question 2b
- By using \(F(t) = f (x(t), y(t)),\) find the constants \(α, β, γ, δ\) such that \(F(t) = αt^{3} + βt^{2} + γt + δ.\) Note that by differentiating \(F(t)\), you should recover the expression \(F'(t)\) obtained in part (a). \(α =\) ［作答］ \(β =\) ［作答］ \(γ =\) ［作答］ \(δ =\) ［作答］ 
+ By using \(F(t) = f (x(t), y(t)),\) find the constants \(α, β, γ, δ\) such that \(F(t) = αt^{3} + βt^{2} + γt + δ.\) Note that by differentiating \(F(t)\), you should recover the expression \(F'(t)\) obtained in part (a). \(α =\) ［作答］ \(β =\) ［作答］ \(γ =\) ［作答］ \(δ =\) ［作答］
 解题思路（整理）：第一种方法用 F′=fₓx′+fᵧy′，再代入 x(t)、y(t) 并整理。第二种方法先完全代入并展开 F(t)，再求导；两种结果应一致。
 
 【偏导数与多变量函数 / 章节测试 / Question 3】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@6cc757e003bc48c3b6e4505924d07945/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@2ccbaf18000a430fada7b19402f489b2
 Question 3
- Suppose that a firm has production function \(q(k, l) = 3k^{2/5}l^{3/5},\) where \(k\) and \(l\) denote units of capital and labour used, respectively. Calculate the marginal product of capital and the marginal product of labour when \(k = 32\) and \(l = 1.\) \(q_{k}(32, 1) =\) ［作答］ \(q_{l}(32, 1) = \) ［作答］ 
+ Suppose that a firm has production function \(q(k, l) = 3k^{2/5}l^{3/5},\) where \(k\) and \(l\) denote units of capital and labour used, respectively. Calculate the marginal product of capital and the marginal product of labour when \(k = 32\) and \(l = 1.\) \(q_{k}(32, 1) =\) ［作答］ \(q_{l}(32, 1) = \) ［作答］
 解题思路（整理）：资本边际产量是 qₖ，劳动边际产量是 qₗ。先对幂函数求偏导，再代入 k=32、l=1；利用 32=2⁵ 化简分数指数。
 
 【二元函数临界点 / 章节练习 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@dd0e8f78255f4b2dbd74e65585057308/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@69023e1728fb49bea32625af9b15b10d
 Question 1
- Find the critical points \((a, b)\) and \((c, d)\) of the function \( f(x, y) = x^3 − y^2 + 6xy + 4, \) where \(a <c.\) \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ \(d =\) ［作答］ 
+ Find the critical points \((a, b)\) and \((c, d)\) of the function \( f(x, y) = x^3 − y^2 + 6xy + 4, \) where \(a <c.\) \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ \(d =\) ［作答］
 解题思路（整理）：联立 fₓ=0 与 fᵧ=0。先从较简单的方程表达一个变量，代回另一个；检查所有分支，最后按题目要求排序。
 
 【二元函数临界点 / 章节练习 / Question 2】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@dd0e8f78255f4b2dbd74e65585057308/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@69023e1728fb49bea32625af9b15b10d
 Question 2
- Find the second-order partial derivatives \(f_{xx} (x, y), f_{xy} (x, y), f_{yx} (x, y)\) and \( f_{yy} (x, y)\) of the function \(f(x, y) = x\;\text{cos}\; y − y^2 \text{e}^x.\) Write your answers in the form \(f_{xx}(x, y) = Ay^2\text{e}^x,\) \(f_{xy}(x, y) = f_{yx}(x, y) = B\sin y + Cy\text{e}^x,\) \(f_{yy}(x, y) = Dx\cos y + E\text{e}^x,\) stating the values of the real numbers \(A\), \(B\), \(C\), \(D\), \(E\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ \(C =\) ［作答］ \(D =\) ［作答］ \(E =\) ［作答］ 
+ Find the second-order partial derivatives \(f_{xx} (x, y), f_{xy} (x, y), f_{yx} (x, y)\) and \( f_{yy} (x, y)\) of the function \(f(x, y) = x\;\text{cos}\; y − y^2 \text{e}^x.\) Write your answers in the form \(f_{xx}(x, y) = Ay^2\text{e}^x,\) \(f_{xy}(x, y) = f_{yx}(x, y) = B\sin y + Cy\text{e}^x,\) \(f_{yy}(x, y) = Dx\cos y + E\text{e}^x,\) stating the values of the real numbers \(A\), \(B\), \(C\), \(D\), \(E\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ \(C =\) ［作答］ \(D =\) ［作答］ \(E =\) ［作答］
 解题思路（整理）：先求两个一阶偏导，再各求一次得到四个二阶偏导。对这个光滑函数，可用 fₓᵧ=fᵧₓ 互相核对；别遗漏对指数项和三角项的负号。
 
 【二元函数临界点 / 章节练习 / Question 3】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@dd0e8f78255f4b2dbd74e65585057308/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@69023e1728fb49bea32625af9b15b10d
 Question 3
- Find the Hessian \(H(x, y)\) of the function \( f(x, y) = x^3 − 2x^2y^2.\) Write your answers in the form \(Ax^3 + Bx^2y^2,\)stating the values of the real numbers \(A\) and \(B\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ 
+ Find the Hessian \(H(x, y)\) of the function \( f(x, y) = x^3 − 2x^2y^2.\) Write your answers in the form \(Ax^3 + Bx^2y^2,\)stating the values of the real numbers \(A\) and \(B\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］
 解题思路（整理）：本课程题目中的 H 指 Hessian 行列式 fₓₓfᵧᵧ−(fₓᵧ)²。先列出三个二阶偏导，再代入展开，避免误把 H 写成 Hessian 矩阵。
 
 【二元函数临界点 / 章节练习 / Question 4】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@dd0e8f78255f4b2dbd74e65585057308/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@69023e1728fb49bea32625af9b15b10d
 Question 4a
- Find the critical points \((a, b), (c, d)\) and \((m, n)\) of the function \(f(x, y) = x^2 − 2xy^2 + 2y^2,\) where \(b < d < n.\) \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ \(d =\) ［作答］ \(m =\) ［作答］ \(n =\) ［作答］ 
+ Find the critical points \((a, b), (c, d)\) and \((m, n)\) of the function \(f(x, y) = x^2 − 2xy^2 + 2y^2,\) where \(b < d < n.\) \(a =\) ［作答］ \(b =\) ［作答］ \(c =\) ［作答］ \(d =\) ［作答］ \(m =\) ［作答］ \(n =\) ［作答］
 Question 4b
- Determine the nature of these three critical points, selecting the correct answer below. A. \((a, b)\) is a local minimum, \((c, d)\) is a local minimum, and \((m, n)\) is a local maximum. B. \((a, b)\) is a saddle point, \((c, d)\) is a local minimum, and \((m, n)\) is a saddle point. C. \((a, b)\) is a local maximum, \((c, d)\) is a saddle point, and \((m, n)\) is a local maximum. D. \((a, b)\) is a local minimum, \((c, d)\) is a local maximum, and \((m, n)\) is a local maximum. 
+ Determine the nature of these three critical points, selecting the correct answer below. A. \((a, b)\) is a local minimum, \((c, d)\) is a local minimum, and \((m, n)\) is a local maximum. B. \((a, b)\) is a saddle point, \((c, d)\) is a local minimum, and \((m, n)\) is a saddle point. C. \((a, b)\) is a local maximum, \((c, d)\) is a saddle point, and \((m, n)\) is a local maximum. D. \((a, b)\) is a local minimum, \((c, d)\) is a local maximum, and \((m, n)\) is a local maximum.
 解题思路（整理）：联立一阶偏导为零时，保留因式为零的所有分支，找全三个临界点。逐点计算 H：H<0 为鞍点；H>0 时再看 fₓₓ 的正负。
 
 【二元函数临界点 / 章节测试 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@ddf15b1489df4bdebdbf9f3d346a1cd1/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@fbc1ff85bafd40389e9f0f7e6a76fb7c
 Question 1
- Find the critical point \((a, b)\) of the function \(f(x, y) = x \text{e}^y −\frac{1}{2}x^{2} − y.\) \(a= \) ［作答］ \(b =\) ［作答］ 
+ Find the critical point \((a, b)\) of the function \(f(x, y) = x \text{e}^y −\frac{1}{2}x^{2} − y.\) \(a= \) ［作答］ \(b =\) ［作答］
 解题思路（整理）：由 fₓ=0 将 x 写成 y 的函数，再代入 fᵧ=0。注意指数函数恒正，取对数时需保留可行条件；最后代回两个偏导验算。
 
 【二元函数临界点 / 章节测试 / Question 2】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@ddf15b1489df4bdebdbf9f3d346a1cd1/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@fbc1ff85bafd40389e9f0f7e6a76fb7c
 Question 2
- Find the second-order partial derivatives \(f_{xx}(x, y), f_{xy}(x, y), f_{yx}(x, y)\) and \(f_{yy}(x, y)\) of the function \(f(x, y) = x^2 y + x\text{e}^y.\) Write your answers in the form \(f_{xx}(x, y) = Ay,\) \(f_{xy}(x, y) = f_{yx}(x, y) = Bx + C\text{e}^y ,\) \(f_{yy}(x, y) = Dx\text{e}^y,\) stating the values of the real numbers \(A\), \(B\), \(C\), \(D\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ \(C =\) ［作答］ \(D =\) ［作答］ 
+ Find the second-order partial derivatives \(f_{xx}(x, y), f_{xy}(x, y), f_{yx}(x, y)\) and \(f_{yy}(x, y)\) of the function \(f(x, y) = x^2 y + x\text{e}^y.\) Write your answers in the form \(f_{xx}(x, y) = Ay,\) \(f_{xy}(x, y) = f_{yx}(x, y) = Bx + C\text{e}^y ,\) \(f_{yy}(x, y) = Dx\text{e}^y,\) stating the values of the real numbers \(A\), \(B\), \(C\), \(D\) in the boxes below. \(A =\) ［作答］ \(B =\) ［作答］ \(C =\) ［作答］ \(D =\) ［作答］
 解题思路（整理）：按定义连续求偏导。可分别从 fₓ 对 y 求导、从 fᵧ 对 x 求导，检查混合偏导是否一致。
 
 【二元函数临界点 / 章节测试 / Question 3】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@ddf15b1489df4bdebdbf9f3d346a1cd1/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@fbc1ff85bafd40389e9f0f7e6a76fb7c
 Question 3a
- Find the critical point \((a, b)\) of the function \(f(x, y) = 2x^2 − 6x + y^2 − 2y.\) \(a = \) ［作答］ \(b =\) ［作答］ 
+ Find the critical point \((a, b)\) of the function \(f(x, y) = 2x^2 − 6x + y^2 − 2y.\) \(a = \) ［作答］ \(b =\) ［作答］
 Question 3b
- Determine the nature of the critical point \((a, b),\) selecting the correct answer below. A. \((a, b)\) is a local maximum. B. \((a, b)\) is a local minimum. C. \((a, b)\) is a saddle point. 
+ Determine the nature of the critical point \((a, b),\) selecting the correct answer below. A. \((a, b)\) is a local maximum. B. \((a, b)\) is a local minimum. C. \((a, b)\) is a saddle point.
 解题思路（整理）：先解两个线性的一阶偏导方程找临界点，再算 H 与 fₓₓ。也可分别对 x、y 配平方，直接检查该点是否为最小值点。
 
 【期末综合 / 期末测试 / Question 1】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@4f3c64f241054854bf952246e58a0ec1/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@13c5e04936cc4ab1a8b2590c1f6e3c30
 Question 1 Segment 1
- Consider the functions \(f\) and \(g\) given by \(f(x) = x^2 + 5x,\qquad g(x) = x + c,\) where \(c\) is a real constant. If \(g^{−1}\) denotes that inverse of \(g\), what is the composition \(g^{−1}f\)? A. \((g^{−1}f)(x) = x^2 + 5x − c\) B. \((g^{−1}f)(x) = x^2 + 5x + c\) C. \((g^{−1}f)(x) = (x + c)^2 + 5(x + c)\) D. \((g^{−1}f)(x) = (x - c)^2 + 5(x - c)\) 
+ Consider the functions \(f\) and \(g\) given by \(f(x) = x^2 + 5x,\qquad g(x) = x + c,\) where \(c\) is a real constant. If \(g^{−1}\) denotes that inverse of \(g\), what is the composition \(g^{−1}f\)? A. \((g^{−1}f)(x) = x^2 + 5x − c\) B. \((g^{−1}f)(x) = x^2 + 5x + c\) C. \((g^{−1}f)(x) = (x + c)^2 + 5(x + c)\) D. \((g^{−1}f)(x) = (x - c)^2 + 5(x - c)\)
 Question 1 Segment 2
- For which values of \(c\) do the graphs of \(f\) and \(g\) intersect? A. For any \(c ∈ \mathbb{R}\) B. For any \(c ∈ \mathbb{R}\) such that \(c < −4\) C. For any \(c ∈ \mathbb{R}\) such that \(c ≤ −4\) D. For any \(c ∈ \mathbb{R}\) such that \(c ≥ −4\) 
+ For which values of \(c\) do the graphs of \(f\) and \(g\) intersect? A. For any \(c ∈ \mathbb{R}\) B. For any \(c ∈ \mathbb{R}\) such that \(c < −4\) C. For any \(c ∈ \mathbb{R}\) such that \(c ≤ −4\) D. For any \(c ∈ \mathbb{R}\) such that \(c ≥ −4\)
 Question 1 Segment 3
- If the graph of the composition \(fg\) crosses the \(y\)-axis at the point \((0, -\frac{25}{4}),\) then \(c =\) ［作答］ 
+ If the graph of the composition \(fg\) crosses the \(y\)-axis at the point \((0, -\frac{25}{4}),\) then \(c =\) ［作答］
 解题思路（整理）：先求平移函数 g 的反函数。判断图像是否相交时，令 f(x)=g(x)，检查二次方程判别式是否非负；求复合函数 y 截距时，把 x=0 代入 fg，而不是代入单独的 f。
 
 【期末综合 / 期末测试 / Question 2】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@4f3c64f241054854bf952246e58a0ec1/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@13c5e04936cc4ab1a8b2590c1f6e3c30
 Question 2 Segment 1
- Consider the functions \(f, g, h\) given by \(f(x) = \sin(x\text{e}^{2x}), \quad g(x) = \frac{x^2 − x}{x + 1}, \quad h(x) = (3x)^x.\) Find the real numbers \(A, \; B\) such that \(f^{'}(x) = \text{e}^{2x}(A + Bx) \cos(x\text{e}^{2x}).\) \(A\) = ［作答］ \(B\) = ［作答］ 
+ Consider the functions \(f, g, h\) given by \(f(x) = \sin(x\text{e}^{2x}), \quad g(x) = \frac{x^2 − x}{x + 1}, \quad h(x) = (3x)^x.\) Find the real numbers \(A, \; B\) such that \(f^{'}(x) = \text{e}^{2x}(A + Bx) \cos(x\text{e}^{2x}).\) \(A\) = ［作答］ \(B\) = ［作答］
 Question 2 Segment 2
- Find the real numbers \(C, D\) such that \(g^{'}(x) = \frac{x(Cx + D) − 1}{(x + 1)^2}.\) \(C\) = ［作答］ \(D\) = ［作答］ 
+ Find the real numbers \(C, D\) such that \(g^{'}(x) = \frac{x(Cx + D) − 1}{(x + 1)^2}.\) \(C\) = ［作答］ \(D\) = ［作答］
 Question 2 Segment 3
- Find the real number \(E\) such that \(h^{'}(x) =(\ln(3x) + E)(3x)^x.\) \(E\) = ［作答］ 
+ Find the real number \(E\) such that \(h^{'}(x) =(\ln(3x) + E)(3x)^x.\) \(E\) = ［作答］
 解题思路（整理）：三段分别对应：链式法则结合乘积法则；商法则；对数求导。对 (3x)ˣ 先取 ln，得到 x ln(3x)，最后乘回原函数，实数范围内需 x>0。
 
 【期末综合 / 期末测试 / Question 3】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@4f3c64f241054854bf952246e58a0ec1/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@13c5e04936cc4ab1a8b2590c1f6e3c30
 Question 3 Segment 1
- Consider the function \(f\) given by \(f(x) = x^3 − 3x^2 + 2.\) Find the real numbers \(A\) and \(B\), with \(A < B\), such that the critical points of \(f\) are \(A \;\text{and}\; B.\) \(A\) = ［作答］ \(B\) = ［作答］ 
+ Consider the function \(f\) given by \(f(x) = x^3 − 3x^2 + 2.\) Find the real numbers \(A\) and \(B\), with \(A < B\), such that the critical points of \(f\) are \(A \;\text{and}\; B.\) \(A\) = ［作答］ \(B\) = ［作答］
 Question 3 Segment 2
- The maximum value of \(f\) on the interval \([−1, 4]\) occurs at the point \(C\), where \(C\) = ［作答］ 
+ The maximum value of \(f\) on the interval \([−1, 4]\) occurs at the point \(C\), where \(C\) = ［作答］
 Question 3 Segment 3
- The maximum value of \(f\) on the interval \([−2, 2]\) occurs at the point \(D\), where \(D\) = ［作答］ 
+ The maximum value of \(f\) on the interval \([−2, 2]\) occurs at the point \(D\), where \(D\) = ［作答］
 解题思路（整理）：先解 f′=0。闭区间上的最大值需要比较区间内临界点与两个端点的函数值；题目要求的是最大值发生的位置，不是最大函数值本身。两个区间必须分别比较。
 
 【期末综合 / 期末测试 / Question 4】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@4f3c64f241054854bf952246e58a0ec1/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@13c5e04936cc4ab1a8b2590c1f6e3c30
 Question 4 Segment 1
- Consider the function \(f\) given by \(f(x, y) = xe^y − yx^2 + x^3.\) Find the real numbers \(A, B, C, D\) such that \(\frac{∂f}{∂x}(x, y) = e^y + Axy + Bx^2 \quad \text{and} \quad \frac{∂f}{∂y}(x, y) = xe^y + Cx^2 + D.\) \(A\) = ［作答］ \(B\) = ［作答］ \(C\) = ［作答］ \(D\) = ［作答］ 
+ Consider the function \(f\) given by \(f(x, y) = xe^y − yx^2 + x^3.\) Find the real numbers \(A, B, C, D\) such that \(\frac{∂f}{∂x}(x, y) = e^y + Axy + Bx^2 \quad \text{and} \quad \frac{∂f}{∂y}(x, y) = xe^y + Cx^2 + D.\) \(A\) = ［作答］ \(B\) = ［作答］ \(C\) = ［作答］ \(D\) = ［作答］
 Question 4 Segment 2
- Suppose that \(y\) is defined implicitly as a function of \(x\) through the equation \(f(x, y) = 0.\) Find the real numbers \(E, F\) such that \(\frac{dy}{dx}=\frac{−e^y + 2xy + Ex^2}{F xe^y − x^2}.\) \(E\) = ［作答］ \(F\) = ［作答］ 
+ Suppose that \(y\) is defined implicitly as a function of \(x\) through the equation \(f(x, y) = 0.\) Find the real numbers \(E, F\) such that \(\frac{dy}{dx}=\frac{−e^y + 2xy + Ex^2}{F xe^y − x^2}.\) \(E\) = ［作答］ \(F\) = ［作答］
 Question 4 Segment 3
- Suppose that \(x(t) = 2t\) and \(y(t) = t^2.\) If \(F(t) = f(x(t), y(t))\), find the real numbers \(K,L, M, N\) such that \(\frac{\text dF}{\text dt}= (K + Lt^2)e^{t^2}+ M t^2 + N t^3\) \(K\) = ［作答］ \(L\) = ［作答］ \(M\) = ［作答］ \(N\) = ［作答］ 
+ Suppose that \(x(t) = 2t\) and \(y(t) = t^2.\) If \(F(t) = f(x(t), y(t))\), find the real numbers \(K,L, M, N\) such that \(\frac{\text dF}{\text dt}= (K + Lt^2)e^{t^2}+ M t^2 + N t^3\) \(K\) = ［作答］ \(L\) = ［作答］ \(M\) = ［作答］ \(N\) = ［作答］
 解题思路（整理）：先求 fₓ、fᵧ；隐函数部分用 y′=−fₓ/fᵧ。参数曲线部分用 dF/dt=fₓx′+fᵧy′，再代入 x=2t、y=t²，与题目的系数形式对齐。
 
 【期末综合 / 期末测试 / Question 5】
 来源：https://learning.edx.org/course/course-v1:LSE+LSEMT105a+3T2023/block-v1:LSE+LSEMT105a+3T2023+type@sequential+block@4f3c64f241054854bf952246e58a0ec1/block-v1:LSE+LSEMT105a+3T2023+type@vertical+block@13c5e04936cc4ab1a8b2590c1f6e3c30
 Question 5 Segment 1
- Consider the function \(f\) given by \(f(x, y) = 40x − x^2 + xy − 2y^2 − 20y.\) The function \(f\) has precisely one critical point at \((a, b)\), where \(a\) = ［作答］ \(b\) = ［作答］ 
+ Consider the function \(f\) given by \(f(x, y) = 40x − x^2 + xy − 2y^2 − 20y.\) The function \(f\) has precisely one critical point at \((a, b)\), where \(a\) = ［作答］ \(b\) = ［作答］
 Question 5 Segment 2
- Recall that the Hessian \(H\) is given by \(H(x, y) = \frac{∂^2f}{∂x^2}(x, y)\frac{∂^2f}{∂y^2}(x, y) −\left (\frac{∂^2f}{∂x∂y}(x, y)\right)^2.\) Select the correct statement below. A. \((a, b)\) is a local minimum since \(H(a, b) > 0\) and \(\frac{∂^2f}{∂x^2}(a, b) < 0\) B. \((a, b)\) is a local maximum since \(H(a, b) > 0\) and \(\frac{∂^2f}{∂x^2}(a, b) < 0\) C. \((a, b)\) is a saddle point since \(H(a, b) < 0\) D. \((a, b)\) cannot be classified using the Hessian test since \(H(a, b) = 0\) 
+ Recall that the Hessian \(H\) is given by \(H(x, y) = \frac{∂^2f}{∂x^2}(x, y)\frac{∂^2f}{∂y^2}(x, y) −\left (\frac{∂^2f}{∂x∂y}(x, y)\right)^2.\) Select the correct statement below. A. \((a, b)\) is a local minimum since \(H(a, b) > 0\) and \(\frac{∂^2f}{∂x^2}(a, b) < 0\) B. \((a, b)\) is a local maximum since \(H(a, b) > 0\) and \(\frac{∂^2f}{∂x^2}(a, b) < 0\) C. \((a, b)\) is a saddle point since \(H(a, b) < 0\) D. \((a, b)\) cannot be classified using the Hessian test since \(H(a, b) = 0\)
 解题思路（整理）：解 fₓ=0、fᵧ=0 得唯一临界点。再用 H=fₓₓfᵧᵧ−(fₓᵧ)² 与 fₓₓ 判别；H>0 且 fₓₓ<0 表示局部极大。
-

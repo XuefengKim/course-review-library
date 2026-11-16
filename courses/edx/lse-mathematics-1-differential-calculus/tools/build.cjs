@@ -51,5 +51,5 @@ fs.writeFileSync(path.join(__dirname,'data.js'),'const DATA='+JSON.stringify({ca
 fs.writeFileSync(path.join(__dirname,'validation.json'),JSON.stringify({cards:cards.length,blocks:cards.reduce((s,c)=>s+c.parts.length,0),concepts:concepts.length,notes:notes.length,missingHints:cards.filter(c=>!c.hint).map(c=>c.id),mathErrors},null,2));
 let txt='LSE Mathematics 1 Part 1: Differential Calculus\n原题摘录 · 2026-11-16\n题目来自已登录课程；公式以 LaTeX 保留。相互依赖的小题按组保存。\n\n';
 for(const c of cards){txt+='【'+names[c.module]+' / '+c.kind+' / '+c.title+'】\n来源：'+c.url+'\n';for(const p of c.parts)txt+=p.title+'\n'+p.question.replace(/\\\(([\s\S]*?)\\\)/g,(_,t)=>'@@MATH'+Buffer.from(t).toString('base64')+'@@').replace(/<[^>]+>/g,' ').replace(/@@MATH(.*?)@@/g,(_,s)=>'\\('+Buffer.from(s,'base64').toString()+'\\)').replace(/\s+/g,' ')+'\n';txt+='解题思路（整理）：'+c.hint+'\n\n';}
-fs.writeFileSync(path.join(out,'原题与思路.txt'),txt);
+fs.writeFileSync(path.join(out,'原题与思路.txt'),txt.split('\n').map(line=>line.trimEnd()).join('\n').trimEnd()+'\n');
 console.log(JSON.parse(fs.readFileSync(path.join(__dirname,'validation.json'))));
